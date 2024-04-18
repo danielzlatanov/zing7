@@ -16,6 +16,9 @@ const config: Config = {
 				custombg: '#38454a',
 				customBtnBg: '#e7f973',
 			},
+			fontFamily: {
+				'space-gr': ['Space Grotesk', 'sans-serif'],
+			},
 		},
 	},
 	plugins: [],

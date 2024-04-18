@@ -4,7 +4,7 @@ import { BiMobile } from 'react-icons/bi';
 const MobileSignup: React.FC = () => {
 	return (
 		<div className='bg-custombg text-white text-center w-full h-auto mt-24'>
-			<h1 className='font-semibold text-2xl sm:text-6xl mt-20'>
+			<h1 className='font-semibold text-2xl sm:text-6xl mt-20 font-space-gr'>
 				Готови ли сте да <br /> работим заедно?
 			</h1>
 			<p className='my-8 px-4'>

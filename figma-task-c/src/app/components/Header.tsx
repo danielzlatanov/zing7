@@ -14,7 +14,7 @@ const Header: React.FC = () => {
 		<header className='bg-white text-black p-4 mt-3'>
 			<div className='container mx-auto max-w-7xl flex items-center justify-between'>
 				<Link href='/'>
-					<p className='text-2xl cursor-pointer font-semibold'>Website</p>
+					<p className='text-2xl cursor-pointer font-semibold font-space-gr'>Website</p>
 				</Link>
 
 				<div className='lg:hidden pb-2'>
