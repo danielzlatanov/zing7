@@ -3,7 +3,7 @@ import React from 'react';
 const Hero: React.FC = () => {
 	return (
 		<div className='text-center'>
-			<h1 className='font-bold text-gray-800 text-5xl mt-10'>
+			<h1 className='font-bold text-gray-800 text-3xl sm:text-5xl mt-10'>
 				Гъвкави решения за <br />
 				сухопътен транспорт за <br />
 				всеки клиент
@@ -11,9 +11,9 @@ const Hero: React.FC = () => {
 
 			<img src='/hero-img.png' alt='hero-img' className='mx-auto w-8/12 h-full my-12' />
 
-			<div className='w-6/12 mx-auto text-left'>
+			<div className='w-full px-6 sm:w-6/12 mx-auto text-left'>
 				<section className='first-section'>
-					<h1 className='font-bold text-4xl mb-10 mt-20'>Решения</h1>
+					<h1 className='font-bold text-2xl sm:text-4xl mb-10 mt-20'>Решения</h1>
 					<p className='mb-8'>
 						Фокусът ни върху клиентите е същността на нашата работа. Ние доставяме услуги за всички видове
 						бизнес – от малки местни предприятия до мултинационални компании.
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
 				</section>
 
 				<section className='second-section text-left'>
-					<h1 className='font-bold text-4xl mt-12 mb-10'>Предимства</h1>
+					<h1 className='font-bold text-2xl sm:text-4xl mt-12 mb-10'>Предимства</h1>
 					<p className='mb-8'>
 						Фокусът ни върху клиентите е същността на нашата работа. Ние доставяме услуги за всички видове
 						бизнес – от малки местни предприятия до мултинационални компании.
