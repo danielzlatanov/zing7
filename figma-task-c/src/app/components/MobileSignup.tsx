@@ -16,7 +16,7 @@ const MobileSignup: React.FC = () => {
 					<input
 						type='text'
 						placeholder='Мобилен телефон'
-						className='p-6 pl-12 rounded-l-lg focus:border-transparent '
+						className='p-6 pl-12 rounded-l-lg focus:outline-none'
 					/>
 				</div>
 				<button className='p-6 rounded-r-lg bg-customBtnBg w-32 font-medium'>Изпрати</button>

@@ -3,10 +3,10 @@ import React from 'react';
 
 const Header: React.FC = () => {
 	return (
-		<header className='bg-white text-black p-4'>
+		<header className='bg-white text-black p-4 mt-3'>
 			<div className='container mx-auto max-w-7xl flex items-center justify-between'>
 				<Link href='/'>
-					<p className='text-xl cursor-pointer font-semibold'>Website</p>
+					<p className='text-2xl cursor-pointer font-semibold'>Website</p>
 				</Link>
 
 				<nav>
