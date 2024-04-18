@@ -22,6 +22,7 @@ const Header: React.FC = () => {
 					</button>
 				</div>
 
+				<nav className={`hidden lg:flex lg:items-center ${isMenuOpen ? 'hidden' : 'block'}`}>
 					<ul className='flex space-x-8'>
 						<li>
 							<a href='#' className=' hover:text-gray-500'>
@@ -56,7 +57,7 @@ const Header: React.FC = () => {
 					</ul>
 				</nav>
 
-				<div className='flex space-x-8'>
+				<div className={`hidden space-x-8 lg:flex lg:items-center ${isMenuOpen ? 'hidden' : 'block'}`}>
 					<button className='hover:text-gray-500'>Профил</button>
 					<button className='hover:text-gray-500 border-2 border-black rounded-lg font-medium p-3'>
 						Заявка за пратка
