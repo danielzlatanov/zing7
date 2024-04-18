@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import MobileMenu from './MobileMenu';
 
 const Header: React.FC = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,6 +65,8 @@ const Header: React.FC = () => {
 					</button>
 				</div>
 			</div>
+
+			<MobileMenu isOpen={isMenuOpen} onClose={toggleMenu} />
 		</header>
 	);
 };
