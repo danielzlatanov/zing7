@@ -1,7 +1,14 @@
+'use client';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 const Header: React.FC = () => {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	const toggleMenu = () => {
+		setIsMenuOpen(!isMenuOpen);
+	};
+
 	return (
 		<header className='bg-white text-black p-4 mt-3'>
 			<div className='container mx-auto max-w-7xl flex items-center justify-between'>
@@ -9,7 +16,12 @@ const Header: React.FC = () => {
 					<p className='text-2xl cursor-pointer font-semibold'>Website</p>
 				</Link>
 
-				<nav>
+				<div className='lg:hidden pb-2'>
+					<button onClick={toggleMenu} className='text-3xl'>
+						&#9776;
+					</button>
+				</div>
+
 					<ul className='flex space-x-8'>
 						<li>
 							<a href='#' className=' hover:text-gray-500'>

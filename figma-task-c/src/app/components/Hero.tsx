@@ -3,7 +3,7 @@ import React from 'react';
 const Hero: React.FC = () => {
 	return (
 		<div className='text-center'>
-			<h1 className='font-bold text-gray-800 text-3xl sm:text-5xl mt-10'>
+			<h1 className='font-bold text-gray-800 text-3xl sm:text-5xl mt-10 px-2'>
 				Гъвкави решения за <br />
 				сухопътен транспорт за <br />
 				всеки клиент
