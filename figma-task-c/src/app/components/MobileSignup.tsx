@@ -16,10 +16,10 @@ const MobileSignup: React.FC = () => {
 					<input
 						type='text'
 						placeholder='Мобилен телефон'
-						className='w-full p-6 pl-12 rounded-l-lg focus:outline-none'
+						className='w-full p-6 py-3 lg:py-6 pl-12 rounded-l-lg rounded-r-none focus:outline-none'
 					/>
 				</div>
-				<button className='p-6 rounded-r-lg bg-customBtnBg w-32 font-medium'>Изпрати</button>
+				<button className='p-6 py-3 lg:py-6 rounded-r-lg bg-customBtnBg w-32 font-medium'>Изпрати</button>
 			</form>
 		</div>
 	);
